@@ -5,7 +5,7 @@
 }
 
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	color: #333;
 	background-color: #312d2e;
@@ -161,7 +161,7 @@ nav a:hover {
 /*Footer End*/
 
 
-/*---------------------------------------------Page 2---------------------------------------------*/
+/*---------------------------------------------About Page---------------------------------------------*/
 
 #aboutBody {
 	margin-top: 40px;
@@ -192,3 +192,73 @@ nav a:hover {
 	color: #fff;
 }
 
+.Bar2 {
+	background-color: #fae205;
+	height: 13px;
+	margin-top: 30px;
+}
+
+/*Page 2 End*/
+
+
+/*---------------------------------------------Shop Page---------------------------------------------*/
+
+#products {
+	margin-top: 40px;
+	padding-left: 60px;
+	padding-right: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+#productImg {
+	width: 530px;
+	background-color: #000;
+}
+
+#productImg p {
+	line-height: 530px;
+	text-align: center;
+	color: #fff;
+}
+
+/*#shopLinks {
+  	display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 50px;
+    margin-left: 6px;
+    font-size: 50px;
+    font-family: Oswald, Helvetica, sans-serif;
+    /*
+}*/
+
+#shopText {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	text-align: center;
+	color: #312d2e;
+	font-size: 45px;
+	font-family: Oswald, Helvetica, sans-serif;
+	padding-left: 55px;
+	padding-right: 145px;
+	
+}
+
+#shopText a {
+	color: #e8e8ee;
+	text-transform: uppercase; 
+}
+
+#shopText a:hover {
+	color: #ffde42;
+	text-decoration: underline;
+}
+
+#line {
+	border-bottom: solid 1px #c37628;
+	padding: 40px;
+}
